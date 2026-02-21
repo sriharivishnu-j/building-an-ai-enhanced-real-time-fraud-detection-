@@ -1,10 +1,16 @@
 {
-  "name": "fraud-detection-frontend",
-  "version": "0.1.0",
-  "private": true,
+  "name": "fraud-detection-ui",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "typescript": "^4.0.0"
+    "next": "14.0.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-query": "3.39.1",
+    "typescript": "5.0.0"
   }
 }
